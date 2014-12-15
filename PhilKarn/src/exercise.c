@@ -10,6 +10,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define FIXED
+
 #ifdef FIXED
 #include "fixed.h"
 #define EXERCISE exercise_8

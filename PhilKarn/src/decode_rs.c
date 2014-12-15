@@ -12,6 +12,8 @@
 #define NULL ((void *)0)
 #define	min(a,b)	((a) < (b) ? (a) : (b))
 
+#define FIXED
+
 #ifdef FIXED
 #include "fixed.h"
 #elif defined(BIGSYM)

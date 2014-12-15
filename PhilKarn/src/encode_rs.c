@@ -4,6 +4,8 @@
  */
 #include <string.h>
 
+#define FIXED
+
 #ifdef FIXED
 #include "fixed.h"
 #elif defined(BIGSYM)
